@@ -5,39 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21fe7748-164c-4e98-a633-5dca53000c2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-payroll/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-payroll/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-payroll/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-payroll/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-payroll/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/caroline/hrpayroll/HrPayrollApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/caroline/hrpayroll/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/caroline/hrpayroll/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/caroline/hrpayroll/entity/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/caroline/hrpayroll/entity/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/caroline/hrpayroll/feingclients/WorkerFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/caroline/hrpayroll/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-worker/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-worker/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-worker/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-worker/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-worker/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/caroline/hrworker/HrWorkerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/caroline/hrworker/controller/WorkerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/caroline/hrworker/entity/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/caroline/hrworker/repository/WorkerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-worker/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-worker/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hr-payroll/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-worker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/java/com/caroline/hrpayroll/HrPayrollApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/caroline/hrpayroll/HrPayrollApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/java/com/caroline/hrpayroll/feingclients/WorkerFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/caroline/hrpayroll/feingclients/WorkerFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/java/com/caroline/hrworker/controller/WorkerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/caroline/hrworker/controller/WorkerController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Users/SQUADRA/Documents/Workspace courses/projeto/ms-java-spring-boot-spring-cloud",
+    "last_opened_file_path": "C:/Users/SQUADRA/Documents/Workspace courses/microservice/ms-java-spring-boot-spring-cloud",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -93,23 +66,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HrWorkerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="HrWorkerApplication8001" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.caroline.hrworker.HrWorkerApplication" />
       <module name="hr-worker" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8001" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.caroline.hrworker.*" />
           <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="com.caroline.hrworker.HrWorkerApplication" />
+          <option name="ENABLED" value="false" />
         </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HrWorkerApplication8002" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.caroline.hrworker.HrWorkerApplication" />
+      <module name="hr-worker" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.caroline.hrworker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="com.caroline.hrworker.HrWorkerApplication" />
+          <option name="ENABLED" value="false" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.HrWorkerApplication8002" />
+      <item itemvalue="Application.HrPayrollApplication" />
+      <item itemvalue="Application.HrWorkerApplication8001" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.HrPayrollApplication" />
-        <item itemvalue="Application.HrWorkerApplication" />
+        <item itemvalue="Application.HrWorkerApplication8001" />
       </list>
     </recent_temporary>
   </component>
