@@ -18,7 +18,7 @@
       <module name="hr-api-gateway-zuul" options="-parameters" />
       <module name="hr-eureka-server" options="-parameters" />
       <module name="hr-payroll" options="-parameters --add-modules java.base" />
-      <module name="hr-worker" options="-parameters" />
+      <module name="hr-worker" options="-parameters --add-modules java.base" />
     </option>
   </component>
 </project>
