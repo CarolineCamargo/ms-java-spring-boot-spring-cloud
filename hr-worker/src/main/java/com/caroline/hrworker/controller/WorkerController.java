@@ -18,8 +18,6 @@ import java.util.List;
 @RequestMapping(value = "/workers")
 public class WorkerController {
 
-    private static Logger logger = LoggerFactory.getLogger(WorkerController.class);
-
     @Autowired
     private Environment environment;
 
@@ -33,9 +31,6 @@ public class WorkerController {
 
     @GetMapping(value = "/{id}")
     public ResponseEntity<Worker> getById(@PathVariable Long id){
-
-        logger.info("PORT = " + environment.getProperty("local.server.port"));
-
         return ResponseEntity.ok(repository.findById(id).get());
     }
 }
