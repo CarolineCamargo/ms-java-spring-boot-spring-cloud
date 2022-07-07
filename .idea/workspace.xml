@@ -5,14 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21fe7748-164c-4e98-a633-5dca53000c2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hr-payroll/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-worker/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-eureka-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-eureka-server/src/main/java/com/caroline/hreurekaserver/HrEurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-eureka-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,13 +55,37 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Users/SQUADRA/Documents/Workspace courses/microservice/ms-java-spring-boot-spring-cloud/hr-payroll",
+    "last_opened_file_path": "C:/Users/SQUADRA/Documents/Workspace courses/microservice/ms-java-spring-boot-spring-cloud/hr-eureka-server",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.HrPayrollApplication">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SQUADRA\Documents\Workspace courses\microservice\ms-java-spring-boot-spring-cloud\hr-eureka-server" />
+      <recent name="C:\Users\SQUADRA\Documents\Workspace courses\microservice\ms-java-spring-boot-spring-cloud\hr-eureka-server\src\main\java" />
+      <recent name="C:\Users\SQUADRA\Documents\Workspace courses\microservice\ms-java-spring-boot-spring-cloud\hr-payroll" />
+      <recent name="C:\Users\SQUADRA\Documents\Workspace courses\microservice\ms-java-spring-boot-spring-cloud\hr-worker" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SQUADRA\Documents\Workspace courses\microservice\ms-java-spring-boot-spring-cloud\hr-eureka-server" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HrEurekaServerApplication">
+    <configuration name="HrEurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.caroline.hreurekaserver.HrEurekaServerApplication" />
+      <module name="hr-eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.caroline.hreurekaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HrPayrollApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.caroline.hrpayroll.HrPayrollApplication" />
       <module name="hr-payroll" />
@@ -101,11 +137,13 @@
     </configuration>
     <list>
       <item itemvalue="Application.HrWorkerApplication8002" />
+      <item itemvalue="Application.HrEurekaServerApplication" />
       <item itemvalue="Application.HrPayrollApplication" />
       <item itemvalue="Application.HrWorkerApplication8001" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HrEurekaServerApplication" />
         <item itemvalue="Application.HrPayrollApplication" />
         <item itemvalue="Application.HrWorkerApplication8001" />
       </list>
