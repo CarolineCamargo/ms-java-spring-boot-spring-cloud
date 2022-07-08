@@ -1,4 +1,4 @@
-package com.caroline.entity;
+package com.caroline.hruser.entity;
 
 import javax.persistence.*;
 import java.io.Serializable;
