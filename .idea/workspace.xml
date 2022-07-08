@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21fe7748-164c-4e98-a633-5dca53000c2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/hruser/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-user/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/hruser/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/HrUserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/hruser/HrUserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/hruser/entity/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/hruser/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/hruser/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/java/com/caroline/hrworker/entity/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/caroline/hrworker/entity/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/hruser/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/hruser/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/hruser/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/hruser/repository/UserRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +76,7 @@
       <recent name="com.hrconfigserver.ax" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HrUserApplication">
+  <component name="RunManager" selected="Application.HrApiGatewayZuulApplication">
     <configuration name="HrApiGatewayZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.caroline.hrapigatewayzuul.HrApiGatewayZuulApplication" />
       <module name="hr-api-gateway-zuul" />
@@ -173,9 +169,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.HrUserApplication" />
+        <item itemvalue="Application.HrApiGatewayZuulApplication" />
         <item itemvalue="Application.HrUserApplication" />
         <item itemvalue="Application.HrWorkerApplication" />
-        <item itemvalue="Application.HrApiGatewayZuulApplication" />
         <item itemvalue="Application.HrConfigServerApplication" />
       </list>
     </recent_temporary>
