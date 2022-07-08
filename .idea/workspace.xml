@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21fe7748-164c-4e98-a633-5dca53000c2a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/hr-user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/HrUserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-user/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-config-server/src/main/java/com/caroline/hrconfigserver/HrConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-config-server/src/main/java/com/caroline/hrconfigserver/HrConfigServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-config-server/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -73,7 +81,7 @@
       <recent name="com.hrconfigserver.ax" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HrWorkerApplication">
+  <component name="RunManager" selected="Application.HrUserApplication">
     <configuration name="HrApiGatewayZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.caroline.hrapigatewayzuul.HrApiGatewayZuulApplication" />
       <module name="hr-api-gateway-zuul" />
@@ -126,6 +134,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HrUserApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.caroline.HrUserApplication" />
+      <module name="hr-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.caroline.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HrWorkerApplication" type="Application" factoryName="Application" singleton="false" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.caroline.hrworker.HrWorkerApplication" />
       <module name="hr-worker" />
@@ -145,6 +166,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.HrEurekaServerApplication" />
+      <item itemvalue="Application.HrUserApplication" />
       <item itemvalue="Application.HrConfigServerApplication" />
       <item itemvalue="Application.HrApiGatewayZuulApplication" />
       <item itemvalue="Application.HrPayrollApplication" />
@@ -152,6 +174,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HrUserApplication" />
         <item itemvalue="Application.HrWorkerApplication" />
         <item itemvalue="Application.HrApiGatewayZuulApplication" />
         <item itemvalue="Application.HrConfigServerApplication" />
