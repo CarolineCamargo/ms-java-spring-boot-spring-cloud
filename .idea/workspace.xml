@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21fe7748-164c-4e98-a633-5dca53000c2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/hruser/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-oauth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-oauth/src/main/java/com/caroline/hroauth/HrOAuthApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/hruser/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/hruser/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/hruser/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/hruser/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-api-gateway-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-api-gateway-zuul/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +70,7 @@
       <recent name="C:\Users\SQUADRA\Documents\Workspace courses\microservice\ms-java-spring-boot-spring-cloud\hr-payroll" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\SQUADRA - RAIZEN\Workspace courses\microservice\ms-java-spring-boot-spring-cloud" />
       <recent name="C:\Users\SQUADRA\Documents\Workspace courses\microservice\ms-java-spring-boot-spring-cloud\hr-api-gateway-zuul" />
       <recent name="C:\Users\SQUADRA\Documents\Workspace courses\microservice\ms-java-spring-boot-spring-cloud\hr-eureka-server" />
     </key>
@@ -76,7 +78,7 @@
       <recent name="com.hrconfigserver.ax" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HrApiGatewayZuulApplication">
+  <component name="RunManager" selected="Application.HrOauthApplication">
     <configuration name="HrApiGatewayZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.caroline.hrapigatewayzuul.HrApiGatewayZuulApplication" />
       <module name="hr-api-gateway-zuul" />
@@ -109,6 +111,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.caroline.hreurekaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HrOauthApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.caroline.hroauth.HrOauthApplication" />
+      <module name="hr-oauth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.caroline.hroauth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,6 +176,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.HrEurekaServerApplication" />
+      <item itemvalue="Application.HrOauthApplication" />
       <item itemvalue="Application.HrUserApplication" />
       <item itemvalue="Application.HrConfigServerApplication" />
       <item itemvalue="Application.HrApiGatewayZuulApplication" />
@@ -168,11 +184,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HrOauthApplication" />
         <item itemvalue="Application.HrUserApplication" />
         <item itemvalue="Application.HrApiGatewayZuulApplication" />
         <item itemvalue="Application.HrUserApplication" />
         <item itemvalue="Application.HrWorkerApplication" />
-        <item itemvalue="Application.HrConfigServerApplication" />
       </list>
     </recent_temporary>
   </component>
