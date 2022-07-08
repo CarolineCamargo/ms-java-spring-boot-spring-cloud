@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21fe7748-164c-4e98-a633-5dca53000c2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hr-config-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-config-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-config-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-config-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-config-server/src/main/java/com/caroline/hrconfigserver/HrConfigServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-config-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-worker/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/java/com/caroline/hrworker/controller/WorkerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/caroline/hrworker/controller/WorkerController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,21 +44,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/SQUADRA - RAIZEN/Workspace courses/microservice/ms-java-spring-boot-spring-cloud/hr-config-server",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "terminal"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/SQUADRA - RAIZEN/Workspace courses/microservice/ms-java-spring-boot-spring-cloud/hr-config-server&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\SQUADRA - RAIZEN\Workspace courses\microservice\ms-java-spring-boot-spring-cloud\hr-config-server" />
@@ -82,7 +75,7 @@
       <recent name="com.hrconfigserver.ax" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HrConfigServerApplication">
+  <component name="RunManager" selected="Application.HrWorkerApplication">
     <configuration name="HrApiGatewayZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.caroline.hrapigatewayzuul.HrApiGatewayZuulApplication" />
       <module name="hr-api-gateway-zuul" />
@@ -135,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HrWorkerApplication" type="Application" factoryName="Application" singleton="false" temporary="true">
+    <configuration name="HrWorkerApplication" type="Application" factoryName="Application" singleton="true" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.caroline.hrworker.HrWorkerApplication" />
       <module name="hr-worker" />
       <extension name="coverage">
@@ -161,10 +154,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HrConfigServerApplication" />
         <item itemvalue="Application.HrWorkerApplication" />
-        <item itemvalue="Application.HrPayrollApplication" />
         <item itemvalue="Application.HrApiGatewayZuulApplication" />
+        <item itemvalue="Application.HrConfigServerApplication" />
+        <item itemvalue="Application.HrPayrollApplication" />
       </list>
     </recent_temporary>
   </component>

@@ -17,7 +17,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="hr-api-gateway-zuul" options="-parameters" />
-      <module name="hr-config-server" options="-parameters --add-modules java.base" />
+      <module name="hr-config-server" options="-parameters" />
       <module name="hr-eureka-server" options="-parameters" />
       <module name="hr-payroll" options="-parameters" />
       <module name="hr-worker" options="-parameters" />
