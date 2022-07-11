@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21fe7748-164c-4e98-a633-5dca53000c2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hr-oauth/src/main/java/com/caroline/hroauth/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-oauth/src/main/java/com/caroline/hroauth/config/AuthorizationServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-oauth/src/main/java/com/caroline/hroauth/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-oauth/src/main/java/com/caroline/hroauth/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/java/com/caroline/hrapigatewayzuul/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/java/com/caroline/hrapigatewayzuul/config/ResourceServerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-oauth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-oauth/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-oauth/src/main/java/com/caroline/hroauth/controller/OauthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-oauth/src/main/java/com/caroline/hroauth/controller/OauthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-oauth/src/main/java/com/caroline/hroauth/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-oauth/src/main/java/com/caroline/hroauth/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-oauth/src/main/java/com/caroline/hroauth/service/OauthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-api-gateway-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-api-gateway-zuul/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,26 +77,13 @@
       <recent name="com.hrconfigserver.ax" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HrOauthApplication">
+  <component name="RunManager" selected="Application.HrPayrollApplication">
     <configuration name="HrApiGatewayZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.caroline.hrapigatewayzuul.HrApiGatewayZuulApplication" />
       <module name="hr-api-gateway-zuul" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.caroline.hrapigatewayzuul.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HrConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.caroline.hrconfigserver.HrConfigServerApplication" />
-      <module name="hr-config-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.caroline.hrconfigserver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,6 +110,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.caroline.hroauth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HrPayrollApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.caroline.hrpayroll.HrPayrollApplication" />
+      <module name="hr-payroll" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.caroline.hrpayroll.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,35 +160,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.caroline.hruser.HrUserApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.caroline.hruser.HrUserApplication" />
-      <module name="hr-user" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.caroline.hruser.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.HrEurekaServerApplication" />
+      <item itemvalue="Application.HrPayrollApplication" />
       <item itemvalue="Application.HrUserApplication" />
-      <item itemvalue="Application.com.caroline.hruser.HrUserApplication" />
       <item itemvalue="Application.HrOauthApplication" />
-      <item itemvalue="Application.HrConfigServerApplication" />
       <item itemvalue="Application.HrApiGatewayZuulApplication" />
       <item itemvalue="Application.HrWorkerApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HrOauthApplication" />
-        <item itemvalue="Application.HrUserApplication" />
-        <item itemvalue="Application.HrApiGatewayZuulApplication" />
-        <item itemvalue="Application.com.caroline.hruser.HrUserApplication" />
+        <item itemvalue="Application.HrPayrollApplication" />
         <item itemvalue="Application.HrWorkerApplication" />
+        <item itemvalue="Application.HrUserApplication" />
+        <item itemvalue="Application.HrOauthApplication" />
+        <item itemvalue="Application.HrApiGatewayZuulApplication" />
       </list>
     </recent_temporary>
   </component>
