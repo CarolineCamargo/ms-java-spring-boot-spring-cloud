@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Entity
-@Table
+@Table(name = "tb_user")
 public class User implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -23,7 +23,7 @@ public class User implements Serializable {
     private String password;
 
     @ManyToMany (fetch = FetchType.EAGER)
-    @JoinTable(name = "user_role",
+    @JoinTable(name = "tb_user_role",
         joinColumns = @JoinColumn (name = "userId"),
         inverseJoinColumns = @JoinColumn(name = "roleId"))
     private Set<Role> roles = new HashSet<>();
