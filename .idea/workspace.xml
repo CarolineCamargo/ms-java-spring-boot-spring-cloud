@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21fe7748-164c-4e98-a633-5dca53000c2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hr-user/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/java/com/caroline/hrworker/controller/WorkerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/caroline/hrworker/controller/WorkerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/resources/bootstrap.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +76,7 @@
       <recent name="com.hrconfigserver.ax" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HrUserApplication">
+  <component name="RunManager" selected="Application.HrWorkerApplication">
     <configuration name="HrApiGatewayZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.caroline.hrapigatewayzuul.HrApiGatewayZuulApplication" />
       <module name="hr-api-gateway-zuul" />
@@ -172,11 +169,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HrUserApplication" />
         <item itemvalue="Application.HrWorkerApplication" />
+        <item itemvalue="Application.HrConfigServerApplication" />
+        <item itemvalue="Application.HrUserApplication" />
         <item itemvalue="Application.HrOauthApplication" />
         <item itemvalue="Application.HrApiGatewayZuulApplication" />
-        <item itemvalue="Application.HrConfigServerApplication" />
       </list>
     </recent_temporary>
   </component>
