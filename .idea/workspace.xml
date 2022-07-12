@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21fe7748-164c-4e98-a633-5dca53000c2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hr-worker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-user/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-user/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-user/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-user/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-user/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +54,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/SQUADRA/Courses/microservice/ms-java-spring-boot-spring-cloud",
+    "last_opened_file_path": "C:/SQUADRA/Courses/microservice/ms-java-spring-boot-spring-cloud/hr-user",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -58,11 +63,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\SQUADRA\Courses\microservice\ms-java-spring-boot-spring-cloud\hr-user" />
       <recent name="C:\SQUADRA - RAIZEN\Workspace courses\microservice\ms-java-spring-boot-spring-cloud\hr-oauth\src\main\java\com\caroline\hroauth" />
       <recent name="C:\SQUADRA - RAIZEN\Workspace courses\microservice\ms-java-spring-boot-spring-cloud\hr-oauth\src\main\resources" />
       <recent name="C:\SQUADRA - RAIZEN\Workspace courses\microservice\ms-java-spring-boot-spring-cloud\hr-config-server" />
       <recent name="C:\Users\SQUADRA\Documents\Workspace courses\microservice\ms-java-spring-boot-spring-cloud\hr-eureka-server" />
-      <recent name="C:\Users\SQUADRA\Documents\Workspace courses\microservice\ms-java-spring-boot-spring-cloud\hr-api-gateway-zuul" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\SQUADRA - RAIZEN\Workspace courses\microservice\ms-java-spring-boot-spring-cloud" />
@@ -74,7 +79,7 @@
       <recent name="com.hrconfigserver.ax" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HrOauthApplication">
+  <component name="RunManager" selected="Application.HrUserApplication">
     <configuration name="HrApiGatewayZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.caroline.hrapigatewayzuul.HrApiGatewayZuulApplication" />
       <module name="hr-api-gateway-zuul" />
@@ -167,8 +172,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HrOauthApplication" />
         <item itemvalue="Application.HrUserApplication" />
+        <item itemvalue="Application.HrOauthApplication" />
         <item itemvalue="Application.HrApiGatewayZuulApplication" />
         <item itemvalue="Application.HrWorkerApplication" />
         <item itemvalue="Application.HrConfigServerApplication" />
