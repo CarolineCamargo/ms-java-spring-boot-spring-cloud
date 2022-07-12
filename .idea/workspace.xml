@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="21fe7748-164c-4e98-a633-5dca53000c2a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/create.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/hruser/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/hruser/entity/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/hruser/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/caroline/hruser/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-user/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/resources/bootstrap.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
