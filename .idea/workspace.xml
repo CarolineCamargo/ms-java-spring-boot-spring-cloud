@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21fe7748-164c-4e98-a633-5dca53000c2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hr-oauth/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-oauth/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-oauth/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-oauth/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-oauth/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-payroll/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-api-gateway-zuul/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
